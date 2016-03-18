@@ -6,7 +6,12 @@
  */
 
 export function max(a, b){
-    // YOUR CODE HERE
+    if (a > b) {
+      return a;
+    }
+    else {
+      return b;
+    }
 }
 
 /**
@@ -17,7 +22,15 @@ export function max(a, b){
  */
 
 export function maxOfThree(a, b, c){
-    // YOUR CODE HERE
+    if (a > c && a > b) {
+      return a;
+    }
+    else if (b > c && b > a) {
+      return b;
+    }
+    else {
+      return c;
+    }
 }
 
 /**
@@ -28,7 +41,40 @@ export function maxOfThree(a, b, c){
  */
 
 export function isVowel(char){
-    // YOUR CODE HERE
+    if (char === "a") {
+      return true;
+    }
+    else if (char ==="A") {
+      return true;
+    }
+    else if (char === "e") {
+      return true;
+    }
+    else if (char === "E") {
+      return true;
+    }
+    else if (char === "i") {
+      return true;
+    }
+    else if (char === "I") {
+      return true;
+    }
+    else if (char === "o") {
+      return true;
+    }
+    else if (char === "O") {
+      return true;
+    }
+    else if (char === "u") {
+      return true;
+    }
+    else if (char === "U") {
+      return true;
+    }
+    else {
+      return false;
+    }
+
 }
 
 /**
@@ -44,7 +90,7 @@ export function isVowel(char){
  */
 
 export function rovarspraket(input) {
-    // YOUR CODE HERE
+    
 }
 
 /**
